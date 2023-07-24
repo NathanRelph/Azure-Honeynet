@@ -3,7 +3,7 @@
 
 
 ## Introduction
-In this Azure lab, I learned to create a honeynet in the cloud using virtual machines and azure services like Sentinel and Defender for Cloud for the more of the aspects pertaining to a SOC....
+In this Azure lab, I learned to create a honeynet in the cloud using virtual machines and azure services like Sentinel, and Defender for Cloud for the more of the aspects pertaining to a SOC....
 
 
 
@@ -57,12 +57,16 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 - This attack map below displays the
 <kbd>![(before)nsg-malicious-allowed-in](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e8fcb175-eb9a-4a27-8f79-4cfe60a92683)</kbd>
+
 - This attack map below displays the
 <kbd>![(before)windows-rdp-smb-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/bf5cb7de-3681-4eeb-afac-afefbb483ae6)</kbd>
+
 - This attack map below displays the
 <kbd>![(before)mssql-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e97d22b1-78cc-4c53-b0d7-31b2ea00bb47)</kbd>
+
 - This attack map below displays the
 <kbd>![(before)syslog-ssh-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/30b92af3-03e1-474d-9aba-070fd1163713)</kbd>
+
 
 
 
