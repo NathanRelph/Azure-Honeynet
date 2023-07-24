@@ -43,18 +43,27 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Hardening Approach
 
 <kbd>![Screenshot 2023-07-23 193435](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/a67c0213-50e1-450b-9c03-1070c1f03ef8)</kbd>
+- This screenshot displays
 
 <kbd>![Screenshot 2023-07-23 193155](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c4b5af56-e9d8-4218-a9e4-199064215be8)</kbd>
-
+- This screenshot displays
+  
 <kbd>![Screenshot 2023-07-23 193131](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c7827c4e-7100-434c-bcd5-a2341695d776)</kbd>
+- This screenshot displays
 
 
 
 ## Attack Maps Before Hardening / Security Controls
+
+- This attack map below displays the
 <kbd>![(before)nsg-malicious-allowed-in](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e8fcb175-eb9a-4a27-8f79-4cfe60a92683)</kbd>
+- This attack map below displays the
 <kbd>![(before)windows-rdp-smb-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/bf5cb7de-3681-4eeb-afac-afefbb483ae6)</kbd>
+- This attack map below displays the
 <kbd>![(before)mssql-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e97d22b1-78cc-4c53-b0d7-31b2ea00bb47)</kbd>
+- This attack map below displays the
 <kbd>![(before)syslog-ssh-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/30b92af3-03e1-474d-9aba-070fd1163713)</kbd>
+
 
 
 ## Metrics Before Hardening / Security Controls
@@ -70,10 +79,6 @@ The following table shows the metrics we measured in our insecure environment fo
 | SecurityAlert            | 1
 | SecurityIncident         | 243
 | AzureNetworkAnalytics_CL | 1714
-
-## Attack Maps Before Hardening / Security Controls
-
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
 ## Metrics After Hardening / Security Controls
 
