@@ -1,4 +1,4 @@
-# Building a SOC + Honeynet in Azure (Live Traffic)
+# Building a SOC + Honeynet in Azure (Live Traffic)  
 ![SOC_Honeynet_Map](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/145f5f20-ae14-4f1f-9185-22bf2bab1857)
 
 
@@ -35,10 +35,10 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 <h3><ins>Azure Services/Regulations:</ins></h3>
 
-- Sentinel
-- Defender
-- NIST SP 800 53 R4
-- PCI DSS 4
+- Sentinel &#8594;
+- Defender &#8594;
+- NIST SP 800 53 R4 &#8594;
+- PCI DSS 4 &#8594; 
 
 ## Hardening Approach
 
