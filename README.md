@@ -23,15 +23,23 @@ In this Azure lab, I learned to create a honeynet in the cloud using virtual mac
 ![After_Hardening](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/b11e5282-5167-4655-94db-62e706978cd0)
 
 
-The architecture of the mini honeynet in Azure consists of the following components:
+<h3><ins>Architecture:</ins></h3>
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
 - Virtual Machines (2 windows, 1 linux)
 - Log Analytics Workspace
+- Azure Active Directory/ Activity Logs
 - Azure Key Vault
 - Azure Storage Account
-- Microsoft Sentinel
+
+<h3><ins>Azure Services/Regulations:</ins></h3>
+
+- Sentinel
+- Defender
+- NIST SP 800 53 R4
+- PCI DSS 4
+
 
 For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
@@ -75,6 +83,18 @@ The following table shows the metrics we measured in our environment for another
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
+
+## Hardening Approach
+
+![Screenshot 2023-07-23 193435](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/a67c0213-50e1-450b-9c03-1070c1f03ef8)
+
+
+![Screenshot 2023-07-23 193155](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c4b5af56-e9d8-4218-a9e4-199064215be8)
+
+![Screenshot 2023-07-23 193131](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c7827c4e-7100-434c-bcd5-a2341695d776)
+
+
+
 
 ## Conclusion
 
