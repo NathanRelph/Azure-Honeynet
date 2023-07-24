@@ -3,8 +3,11 @@
 
 
 ## Introduction
+In this Azure lab, I learned to create a honeynet in the cloud using virtual machines and azure services like Sentinel and Defender for Cloud for the more of the aspects pertaining to a SOC....
 
-Text Here
+
+
+<h3><ins>Analyzed Metrics:</ins></h3>
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
