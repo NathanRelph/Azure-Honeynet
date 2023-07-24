@@ -17,11 +17,11 @@ In this Azure lab, I learned to create a honeynet in the cloud using virtual mac
 
 ## Architecture Before Hardening / Security Controls
 ![Before_Hardening](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/abc3757c-b8d0-475b-b3f4-30cbcfd86e4f)
-
+For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
 ## Architecture After Hardening / Security Controls
 ![After_Hardening](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/b11e5282-5167-4655-94db-62e706978cd0)
-
+For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 <h3><ins>Architecture:</ins></h3>
 
@@ -40,16 +40,21 @@ In this Azure lab, I learned to create a honeynet in the cloud using virtual mac
 - NIST SP 800 53 R4
 - PCI DSS 4
 
+## Hardening Approach
 
-For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
+<kbd>![Screenshot 2023-07-23 193435](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/a67c0213-50e1-450b-9c03-1070c1f03ef8)</kbd>
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+<kbd>![Screenshot 2023-07-23 193155](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c4b5af56-e9d8-4218-a9e4-199064215be8)</kbd>
+
+<kbd>![Screenshot 2023-07-23 193131](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c7827c4e-7100-434c-bcd5-a2341695d776)</kbd>
+
+
 
 ## Attack Maps Before Hardening / Security Controls
-![(before)nsg-malicious-allowed-in](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e8fcb175-eb9a-4a27-8f79-4cfe60a92683)
-![(before)windows-rdp-smb-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/bf5cb7de-3681-4eeb-afac-afefbb483ae6)
-![(before)mssql-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e97d22b1-78cc-4c53-b0d7-31b2ea00bb47)
-![(before)syslog-ssh-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/30b92af3-03e1-474d-9aba-070fd1163713)
+<kbd>![(before)nsg-malicious-allowed-in](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e8fcb175-eb9a-4a27-8f79-4cfe60a92683)</kbd>
+<kbd>![(before)windows-rdp-smb-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/bf5cb7de-3681-4eeb-afac-afefbb483ae6)</kbd>
+<kbd>![(before)mssql-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e97d22b1-78cc-4c53-b0d7-31b2ea00bb47)</kbd>
+<kbd>![(before)syslog-ssh-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/30b92af3-03e1-474d-9aba-070fd1163713)</kbd>
 
 
 ## Metrics Before Hardening / Security Controls
@@ -83,18 +88,6 @@ The following table shows the metrics we measured in our environment for another
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
-
-## Hardening Approach
-
-![Screenshot 2023-07-23 193435](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/a67c0213-50e1-450b-9c03-1070c1f03ef8)
-
-
-![Screenshot 2023-07-23 193155](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c4b5af56-e9d8-4218-a9e4-199064215be8)
-
-![Screenshot 2023-07-23 193131](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c7827c4e-7100-434c-bcd5-a2341695d776)
-
-
-
 
 ## Conclusion
 
