@@ -33,10 +33,10 @@ At the end of this project, all the Network Security Groups were hardened and th
 
 <h3><ins>Azure Services/Regulations:</ins></h3>
 
-- Sentinel &#8594;
-- Defender &#8594;
-- NIST SP 800 53 R4 &#8594;
-- PCI DSS 4 &#8594; 
+- Sentinel &#8594; Used to create Data Collection Rules and monitor Incidents.
+- Defender &#8594; Used to create Workbook IPGeodata Maps, and implement Regulatory Compliance standards
+- NIST SP 800 53 R4 &#8594; Regulatory compliance standard that provides guidance for securing your environment.
+- PCI DSS 4 &#8594; Credit card security standard that helps to ensure user information.
 
 ## Hardening Approach
 
