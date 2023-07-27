@@ -41,28 +41,28 @@ At the end of this project, all the Network Security Groups were hardened and th
 ## Hardening Approach
 
 <kbd>![Screenshot 2023-07-23 193435](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/a67c0213-50e1-450b-9c03-1070c1f03ef8)</kbd>
-- This screenshot displays
+- This screenshot displays the network topology after hardening. Only missing the subnet in this screenshot.
 
 <kbd>![Screenshot 2023-07-23 193155](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c4b5af56-e9d8-4218-a9e4-199064215be8)</kbd>
-- This screenshot displays
+- This screenshot displays an overview of the Regulatory Compliance section in Microsoft Defender for Cloud.
   
 <kbd>![Screenshot 2023-07-23 193131](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/c7827c4e-7100-434c-bcd5-a2341695d776)</kbd>
-- This screenshot displays
+- This screenshot displays the section of NIST SP 800-53 that was implemented.
 
 
 
 ## Attack Maps Before Hardening & Implementing Security Controls
 
-- This attack map below displays the
+- This attack map below displays the traffic allowed into the network by having the Network Security Group ports open.
 <kbd>![(before)nsg-malicious-allowed-in](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e8fcb175-eb9a-4a27-8f79-4cfe60a92683)</kbd>
 
-- This attack map below displays the
+- This attack map below displays the attackers that tried to login to the Windows Virtual Machine.
 <kbd>![(before)windows-rdp-smb-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/bf5cb7de-3681-4eeb-afac-afefbb483ae6)</kbd>
 
-- This attack map below displays the
+- This attack map below displays the SQL Server and the attackers that tried to get into it.
 <kbd>![(before)mssql-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e97d22b1-78cc-4c53-b0d7-31b2ea00bb47)</kbd>
 
-- This attack map below displays the
+- This attack map below displays the Linux Virtual Machine and the attackers that tried to access it.
 <kbd>![(before)syslog-ssh-auth-fail](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/30b92af3-03e1-474d-9aba-070fd1163713)</kbd>
 
 
