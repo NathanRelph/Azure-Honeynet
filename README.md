@@ -19,7 +19,7 @@ At the start of this project all resources were made accessible to the internet.
 
 ## Architecture After Hardening & Implementing Security Controls
 ![After_Hardening](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/b11e5282-5167-4655-94db-62e706978cd0)
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+At the end of this project, all the Network Security Groups were hardened and the VMs were only accessible to my host computer.  The other resources being the Key Vault and Blob Storage were protected by Private Endpoint Protection and their built-in firewalls.
 
 <h3><ins>Architecture:</ins></h3>
 
