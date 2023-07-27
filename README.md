@@ -3,7 +3,7 @@
 
 
 ## Introduction
-In this Azure lab, I learned to create a honeynet in the cloud using virtual machines and azure services like Sentinel, and Defender for Cloud for the more of the aspects pertaining to a SOC....
+In this Azure lab, I learned to create a honeynet in the cloud using virtual machines and azure services like Sentinel and Defender for Cloud.  The goal in completing this lab was to create an eviornement in which attackers could get into my network, record their IPs and map them, and then harden the network again the finish off the project.
 
 
 
