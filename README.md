@@ -15,7 +15,7 @@ In this Azure lab, I learned to create a honeynet in the cloud using virtual mac
 
 ## Architecture Before Hardening & Implementing Security Controls
 ![Before_Hardening](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/abc3757c-b8d0-475b-b3f4-30cbcfd86e4f)
-At the start of this project all resources were made accessible to the internet.  Both of the Network Security Group firewall ports for the Virtual Machines were left wide open.  Private Endpoints were not used, making it public and exposed to the internet.
+At the start of this project all resources were made accessible to the internet.  Both of the Network Security Group firewall ports for the Virtual Machines were left wide open.  Private Endpoints were not used, making it public and exposed to the internet.  That means attackers possibly getting into VMs, our blob storage, key vault, and more.
 
 ## Architecture After Hardening & Implementing Security Controls
 ![After_Hardening](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/b11e5282-5167-4655-94db-62e706978cd0)
