@@ -100,4 +100,4 @@ The following table shows the metrics we measured in our environment for another
 
 Text here.
 
-Also, [here](https://youtu.be/PvvVZGii2TY?t=0) are some parts of the lab I recorded so I could get some extra practice. 
+Also, [here](https://youtu.be/PvvVZGii2TY?t=0) are some parts of the lab I recorded so I could get some extra practice. Overall this was a great experience to go through this lab.  I learned a lot about logging, kql, and how to use azure services in a practical way.
