@@ -98,6 +98,8 @@ The following table shows the metrics we measured in our environment for another
 
 ## Conclusion
 
-Text here.
+Hardening and implementing security standards from Defender's Regulatory Compliance section really helps to protect a network environment.  Going through and doing this lab taught me what it's actually like to have an insecure network with computers and what attackers can do to get information from another person's computer.  I learned a lot about how to use Microsoft's Azure services, and ultimately how to create a SOC with a honeynet as it's source for incidents!  If I was to do this lab again, I would implement more of Defender's Regulatory Compliance standards.  I would have liked to see the number of Windows SecurityEvent logs be lower. 
 
 Also, [here](https://youtu.be/PvvVZGii2TY?t=0) are some parts of the lab I recorded so I could get some extra practice. Overall this was a great experience to go through this lab.  I learned a lot about logging, kql, and how to use azure services in a practical way.
+
+ -Nathan Relph
