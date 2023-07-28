@@ -53,7 +53,7 @@ At the end of this project, all the Network Security Groups were hardened and th
 
 ## Attack Maps Before Hardening & Implementing Security Controls
 
-- This attack map below displays the traffic allowed into the network by having the Network Security Group ports open.
+- This attack map below displays the traffic allowed into the network by having the Network Security Group ports open to the internet.
 <kbd>![(before)nsg-malicious-allowed-in](https://github.com/NathanRelph/Azure-Honeynet/assets/140288097/e8fcb175-eb9a-4a27-8f79-4cfe60a92683)</kbd>
 
 - This attack map below displays the attackers that tried to login to the Windows Virtual Machine.
